@@ -2,6 +2,8 @@
 
 This project demonstrates a **full end-to-end data engineering pipeline** for ingesting, processing, transforming, and serving large-scale e-commerce data using **Azure Data Factory, Azure Databricks, and Azure Synapse Analytics**. The project follows a **Medallion Architecture**: Bronze → Silver → Gold.  
 
+   ![Project_Architecture](./Architecture.png)  
+
 ## Project Introduction
 
 This project implements a **robust pipeline**, handling approximately **1 million rows** from multiple sources. Data is ingested from **7 different GitHub CSV files** (~120K rows each) and a **MySQL database** into **Azure Data Lake Storage (ADLS Gen2)** using **Azure Data Factory**.
